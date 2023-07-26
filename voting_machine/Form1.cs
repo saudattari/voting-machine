@@ -16,7 +16,8 @@ namespace voting_machine
         public Form1()
         {
             InitializeComponent();
-            loadform(new home());
+            home1 h1 = new home1();
+            loadform2(h1);
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
@@ -28,18 +29,26 @@ namespace voting_machine
         {
 
         }
-        private void loadform(object form)
+        //private void loadform(object form)
+        //{
+        //    if(this.mainbox.Controls.Count > 0)
+        //        this.mainbox.Controls.RemoveAt(0);
+        //        Form form1 = form as Form;
+        //        form1.TopLevel = false;
+        //        form1.Dock = DockStyle.Fill;
+        //        this.mainbox.Controls.Add(form1);
+        //        this.mainbox.Tag = form1;
+        //        form1.Show();
+
+        //}
+        private void loadform2(UserControl userControl)
         {
-            if(this.mainbox.Controls.Count > 0)
-                this.mainbox.Controls.RemoveAt(0);
-                Form form1 = form as Form;
-                form1.TopLevel = false;
-                form1.Dock = DockStyle.Fill;
-                this.mainbox.Controls.Add(form1);
-                this.mainbox.Tag = form1;
-                form1.Show();
-            
+            userControl.Dock = DockStyle.Fill;
+            mainbox.Controls.Clear();
+            mainbox.Controls.Add(userControl);
+            userControl.BringToFront();
         }
+
 
         private void mainbox_Paint(object sender, PaintEventArgs e)
         {
@@ -48,12 +57,14 @@ namespace voting_machine
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            loadform(new home());
+            home1 h1 = new home1();
+            loadform2(h1);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            loadform(new candidate());
+            Candidates c = new Candidates();
+            loadform2(c);
         }
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)

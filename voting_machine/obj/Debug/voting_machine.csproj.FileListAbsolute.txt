@@ -24,6 +24,7 @@ E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csp
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.CopyComplete
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.exe
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.pdb
-E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.home.resources
-E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.candidate.resources
 E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\DevExpress.XtraGrid.v16.2.Core.dll
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.add_candidate.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Candidates.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.home1.resources

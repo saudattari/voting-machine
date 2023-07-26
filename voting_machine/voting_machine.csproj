@@ -58,11 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="candidate.cs">
-      <SubType>Form</SubType>
+    <Compile Include="add_candidate.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="candidate.Designer.cs">
-      <DependentUpon>candidate.cs</DependentUpon>
+    <Compile Include="add_candidate.Designer.cs">
+      <DependentUpon>add_candidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Candidates.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Candidates.Designer.cs">
+      <DependentUpon>Candidates.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -70,22 +76,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="home.cs">
-      <SubType>Form</SubType>
+    <Compile Include="home1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="home.Designer.cs">
-      <DependentUpon>home.cs</DependentUpon>
+    <Compile Include="home1.Designer.cs">
+      <DependentUpon>home1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="candidate.resx">
-      <DependentUpon>candidate.cs</DependentUpon>
+    <EmbeddedResource Include="add_candidate.resx">
+      <DependentUpon>add_candidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Candidates.resx">
+      <DependentUpon>Candidates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="home.resx">
-      <DependentUpon>home.cs</DependentUpon>
+    <EmbeddedResource Include="home1.resx">
+      <DependentUpon>home1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
