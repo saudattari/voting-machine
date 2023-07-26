@@ -84,6 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Voting.Designer.cs">
+      <DependentUpon>Voting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="votingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>votingDataSet.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="add_candidate.resx">
       <DependentUpon>add_candidate.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +117,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Voting.resx">
+      <DependentUpon>Voting.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +130,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="votingDataSet.xsc">
+      <DependentUpon>votingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="votingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>votingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="votingDataSet.xss">
+      <DependentUpon>votingDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

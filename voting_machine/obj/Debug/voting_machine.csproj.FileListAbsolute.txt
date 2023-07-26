@@ -28,3 +28,4 @@ E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\DevExpress.XtraGri
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.add_candidate.resources
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Candidates.resources
 E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.home1.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Voting.resources

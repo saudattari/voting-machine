@@ -40,8 +40,10 @@
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.mainbox = new Guna.UI2.WinForms.Guna2Panel();
+            this.Candidate_name = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.mainbox.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2CircleButton1
@@ -132,6 +134,7 @@
             this.guna2Button3.Size = new System.Drawing.Size(104, 45);
             this.guna2Button3.TabIndex = 5;
             this.guna2Button3.Text = "Voting";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -203,12 +206,21 @@
             // 
             // mainbox
             // 
+            this.mainbox.Controls.Add(this.Candidate_name);
             this.mainbox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainbox.Location = new System.Drawing.Point(0, 47);
             this.mainbox.Name = "mainbox";
             this.mainbox.Size = new System.Drawing.Size(1239, 564);
             this.mainbox.TabIndex = 4;
             this.mainbox.Paint += new System.Windows.Forms.PaintEventHandler(this.mainbox_Paint_1);
+            // 
+            // Candidate_name
+            // 
+            this.Candidate_name.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Candidate_name.Location = new System.Drawing.Point(0, 0);
+            this.Candidate_name.Name = "Candidate_name";
+            this.Candidate_name.Size = new System.Drawing.Size(1239, 564);
+            this.Candidate_name.TabIndex = 2;
             // 
             // Form1
             // 
@@ -229,6 +241,7 @@
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.mainbox.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -245,6 +258,7 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel mainbox;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private Guna.UI2.WinForms.Guna2Panel Candidate_name;
     }
 }
 

@@ -76,5 +76,16 @@ namespace voting_machine
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Voting v = new Voting();
+            loadform2(v);
+        }
     }
 }
