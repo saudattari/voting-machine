@@ -1,0 +1,29 @@
+E:\1Visual Repository\voting_machine\voting_machine\bin\Debug\voting_machine.exe.config
+E:\1Visual Repository\voting_machine\voting_machine\bin\Debug\voting_machine.exe
+E:\1Visual Repository\voting_machine\voting_machine\bin\Debug\voting_machine.pdb
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.AssemblyReference.cache
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.SuggestedBindingRedirects.cache
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Form1.resources
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Properties.Resources.resources
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.GenerateResource.cache
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.CoreCompileInputs.cache
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.exe
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.pdb
+E:\1Visual Repository\voting_machine\voting_machine\bin\Debug\Guna.UI2.dll
+E:\1Visual Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.CopyComplete
+E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\voting_machine.exe.config
+E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\voting_machine.exe
+E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\voting_machine.pdb
+E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\Guna.UI2.dll
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.AssemblyReference.cache
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.SuggestedBindingRedirects.cache
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Form1.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.Properties.Resources.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.GenerateResource.cache
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.CoreCompileInputs.cache
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.csproj.CopyComplete
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.exe
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.pdb
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.home.resources
+E:\1Visual_Repository\voting_machine\voting_machine\obj\Debug\voting_machine.candidate.resources
+E:\1Visual_Repository\voting_machine\voting_machine\bin\Debug\DevExpress.XtraGrid.v16.2.Core.dll
