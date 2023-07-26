@@ -38,8 +38,8 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.mainbox = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.mainbox = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +67,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.DarkBlue;
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2Panel1.Controls.Add(this.guna2Button5);
             this.guna2Panel1.Controls.Add(this.guna2Button4);
             this.guna2Panel1.Controls.Add(this.guna2Button3);
@@ -182,21 +182,13 @@
             // 
             // guna2Panel2
             // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.Silver;
             this.guna2Panel2.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 611);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1239, 43);
             this.guna2Panel2.TabIndex = 3;
-            // 
-            // mainbox
-            // 
-            this.mainbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainbox.Location = new System.Drawing.Point(0, 47);
-            this.mainbox.Name = "mainbox";
-            this.mainbox.Size = new System.Drawing.Size(1239, 564);
-            this.mainbox.TabIndex = 4;
-            this.mainbox.Paint += new System.Windows.Forms.PaintEventHandler(this.mainbox_Paint_1);
             // 
             // guna2HtmlLabel1
             // 
@@ -208,6 +200,15 @@
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "All Right Reserved © <span style=\"color:darkblue;\">2023-25</span>| By Hafiz Farha" +
     "n and Saud ";
+            // 
+            // mainbox
+            // 
+            this.mainbox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainbox.Location = new System.Drawing.Point(0, 47);
+            this.mainbox.Name = "mainbox";
+            this.mainbox.Size = new System.Drawing.Size(1239, 564);
+            this.mainbox.TabIndex = 4;
+            this.mainbox.Paint += new System.Windows.Forms.PaintEventHandler(this.mainbox_Paint_1);
             // 
             // Form1
             // 

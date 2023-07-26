@@ -19,8 +19,7 @@ namespace voting_machine
 
         private void guna2GradientCircleButton1_Click(object sender, EventArgs e)
         {
-            add_candidate ac = new add_candidate(); 
-            loadform2(ac);
+            
         }
         private void loadform2(UserControl userControl)
         {
@@ -33,6 +32,13 @@ namespace voting_machine
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void guna2GradientCircleButton1_Click_1(object sender, EventArgs e)
+        {
+            guna2DataGridView1.Visible = false;
+            add_candidate ac = new add_candidate();
+            loadform2(ac);
         }
     }
 }
