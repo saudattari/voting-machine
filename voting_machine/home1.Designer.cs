@@ -28,14 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.voting_meter = new Guna.UI2.WinForms.Guna2RadialGauge();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.label1 = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,22 +55,24 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(69, 15);
+            this.label3.Location = new System.Drawing.Point(83, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 37);
+            this.label3.Size = new System.Drawing.Size(36, 37);
             this.label3.TabIndex = 0;
-            this.label3.Text = "00";
+            this.label3.Text = "0";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label2.Location = new System.Drawing.Point(504, 436);
+            this.label2.Location = new System.Drawing.Point(476, 436);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 36);
+            this.label2.Size = new System.Drawing.Size(245, 36);
             this.label2.TabIndex = 8;
-            this.label2.Text = "Voting Meter";
+            this.label2.Text = "Total Candidates";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // voting_meter
             // 
@@ -83,11 +83,11 @@
             this.voting_meter.MinimumSize = new System.Drawing.Size(30, 30);
             this.voting_meter.Name = "voting_meter";
             this.voting_meter.ProgressColor = System.Drawing.Color.DarkBlue;
-            this.voting_meter.ProgressColor2 = System.Drawing.Color.DarkBlue;
-            this.voting_meter.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.voting_meter.ProgressColor2 = System.Drawing.Color.Red;
             this.voting_meter.ShowPercentage = false;
             this.voting_meter.Size = new System.Drawing.Size(371, 371);
             this.voting_meter.TabIndex = 7;
+            this.voting_meter.Value = 100;
             // 
             // guna2Separator1
             // 
@@ -135,6 +135,5 @@
         private Guna.UI2.WinForms.Guna2RadialGauge voting_meter;
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Timer timer1;
     }
 }
